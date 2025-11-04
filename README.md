@@ -1,10 +1,8 @@
-### 2. Frontend README (`frontend/README.md`)
+# Frontend: AI Voice Agent Admin Panel (Next.js)
+
 ![AI Voice Agent](https://iili.io/KQWX8Ku.png) 
 
 ![Audios Transcript](https://iili.io/KQXPUiu.png)
-
-```md
-# Frontend: AI Voice Agent Admin Panel (Next.js)
 
 This directory contains the admin UI for the project, built in Next.js and TypeScript.
 
@@ -55,6 +53,8 @@ This frontend does **not** call the FastAPI backend (on port 8000) directly. It 
 **File (`frontend/next.config.mjs`):**
 ```javascript
 const nextConfig = {
+  // ...other configs like compiler options
+  
   async rewrites() {
     return [
       {
@@ -66,4 +66,5 @@ const nextConfig = {
 };
 ```
 
-**  Note: This ensures that all application logic (starting calls, fetching results) is handled seamlessly.
+This ensures that all application logic (starting calls, fetching results) is handled seamlessly, as if the backend were running on the same port.
+
