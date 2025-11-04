@@ -1,4 +1,5 @@
 ### 2. Frontend README (`frontend/README.md`)
+![AI Voice Agent](https://iili.io/KQWX8Ku.png) 
 
 ```md
 # Frontend: AI Voice Agent Admin Panel (Next.js)
